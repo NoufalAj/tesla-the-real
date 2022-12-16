@@ -1,0 +1,285 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    
+}
+@font-face {
+    font-family: GothamLite;
+    src: url(Gotham-Font/Gotham-Light.otf);
+}
+@font-face {
+    font-family: Gotham;
+    src: url(Gotham-Font/Gotham-Light.otf);
+    
+   
+}
+@font-face {
+    font-family: GothamBook;
+    src: url(Gotham-Font/Gotham\ Book.otf);
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+.Section1
+{
+    background-image: url(images/M3-Homepage-Desktop-LHD.jfif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center ;
+    scroll-snap-align: start;
+    width: 100%;
+}
+.Section2
+{
+    background-image: url(images/Desktop-ModelY.jfif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    scroll-snap-align: start;
+    width: 100%;
+}
+.Section3
+{
+    background-image: url(images/Homepage-Model-S-Desktop-LHD.jfif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    scroll-snap-align: start;
+    width: 100%;
+}
+.Section4
+{
+    background-image: url(images/Homepage-Model-X-Desktop-LHD.jfif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    scroll-snap-align: start;
+    width: 100%;
+}
+.Section5
+{
+    background-image: url(images/_25-HP-SolarPanels-D.jfif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    scroll-snap-align: start;
+    width: 100%;
+}
+.Section6
+{
+    background-image: url(images/Homepage-SolarRoof-Desktop-Global\ \(1\).jfif);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    scroll-snap-align: start;
+    width: 100%;
+}
+.Section7
+{
+    background-image: url(images/accessories.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    scroll-snap-align: start;
+    width: 100%;
+}
+header
+{
+  height: 56px;  
+  position: fixed;
+}
+.Headcontainer
+{
+    display: flex;
+    height: 56px;
+}
+.LeftHead
+{
+  width: 374px; 
+}
+.CenterHead
+{
+width: 616px;
+}
+.Products
+{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 17px;   
+}
+.Products a
+{
+    text-decoration: none;
+    color: black;   
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight:bolder; 
+    letter-spacing: 1px;
+}
+.RightHead
+{
+    width: 375px;
+}
+.Options
+{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 17px;
+    margin-left: 74px;
+}
+.Options a
+{
+    text-decoration: none;
+    color: black;
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight:bolder;
+}
+.Headcontainer
+{
+    padding-left: 3px;
+    padding-top: 3px;
+}
+.Logo
+{
+    width: 152px;
+    margin-top: 17px;
+    margin-left: 32px;
+}
+.icon
+{
+    height: 12.2px;
+    margin-left: 11px;
+    padding: 2px;
+    padding-left: 2px;
+}
+.Heading
+{
+height: 48px;
+width: 100%;
+position: relative;
+top: 108px;
+}
+.Heading h1
+{
+    text-align: center;
+    font-family: GothamBook;
+    font-size: 40px;
+    letter-spacing: .6px;  
+}
+.para
+{
+    height: 40px;
+    width: 792px;
+    margin: auto;
+    line-height: 40px;
+    font-family: GothamLite;
+    font-size: 15px;     
+    text-align: center;    
+}
+.Heading a
+{    
+   text-decoration: none;
+    color: black;    
+}
+.paragraph
+{ 
+    width: 159px;
+    margin: auto;
+    border-bottom: .5px solid black;
+    position: relative;
+    height:29px;
+    bottom: 5px;
+}
+.buttons
+{
+    width: 572px;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    position: relative;
+    top: 306px;  
+}
+.buttons a
+{
+   background-color:rgba(23,26,32,0.8);
+    width: 262px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: GothamBook;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;   
+}
+.buttons .RightButton
+{
+    background-color: rgba(244, 244, 244, 0.65);
+    color: black;
+}
+.DownArrow
+{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 356px;
+}
+.Section7 .buttons a
+{
+    background-color:#171a20;
+    color:white;   
+}
+.Section7 .buttons
+{
+    margin-top: 16px;
+    font-family: GothamBook;
+    font-weight: bolder;
+}
+footer
+{  
+    position: relative;
+    top: 549px;
+    height: 70px;
+    width: 618px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 70px;
+    font-family: GothamBook;
+    font-size: 12px;
+    font-weight: 500;
+}
+footer a
+{
+    text-decoration: none;
+    color: #5c5e62;
+}
+
+.sp_paragraph
+{ 
+    width: 287px;
+    margin: auto;
+    position: relative;
+    height:29px;
+    bottom: 5px; 
+}
+.Section5 .Heading h1
+{
+    font-size: 34px;
+}
+.sp_paragraph p
+{
+    position: relative;
+    top: 3px;
+}
